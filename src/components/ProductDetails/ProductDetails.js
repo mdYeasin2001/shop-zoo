@@ -15,7 +15,7 @@ const ProductDetails = () => {
         <div className="card m-3">
             <div className="row g-0">
                 <div className="col-md-4">
-                    <img className="py-3 ps-5 ms-5" style={{ height: '300px'}} src={image} alt="..." />
+                    <img className="py-3 ps-5 ms-5" style={{ height: '300px', width: '350'}} src={image} alt="..." />
                 </div>
                 <div className="col-md-8">
                     <div className="card-body">

@@ -13,7 +13,7 @@ const Product = (props) => {
                     <p><small>Category: {category}</small></p>
                 </div>
                 <div className="card-footer bg-white">
-                    <button className="btn btn-dark">Add to Cart</button>
+                    <button onClick={() => props.AddToCart(props.product)} className="btn btn-dark">Add to Cart</button>
                 </div>
             </div>
         </div>
